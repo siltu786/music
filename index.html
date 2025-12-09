@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mobile Audio Player with Repeat</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>Habil Audio Player </header>
+
+<div id="playerArea">
+    <img id="cover" src="" alt="Cover Image">
+    <h3 id="nowPlaying">No song playing</h3>
+    <audio id="audioPlayer" controls></audio>
+
+    <div class="controls">
+        <button id="prevBtn">⏮</button>
+        <button id="nextBtn">⏭</button>
+        <button id="repeatBtn">🔁</button>
+    </div>
+
+    <input type="file" id="songUploader" accept="audio/*" multiple>
+</div>
+
+<div id="playlist"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
